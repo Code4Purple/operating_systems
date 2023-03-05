@@ -8,6 +8,13 @@ https://download-mirror.savannah.gnu.org/releases/pgubook/ProgrammingGroundUp-1-
 
 --Using Linux Mint
 
-##Packages Installed: apt install qemu apt install nasm apt install make ##Usefull Commands: To compile: nasm -f bin "filename".asm -o "filename".bin
+##Packages Installed:
+ apt install qemu
+ apt install nasm
+ apt install make
+##Usefull Commands:
+###To compile:
+nasm -f bin "filename".asm -o "filename".bin
 
-To run the code: qemu-system-x86_64 "filename".bin qemu "filename".bin
+###To run the code:
+qemu-system-x86_64 "filename".bin qemu "filename".bin
